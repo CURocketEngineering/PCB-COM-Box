@@ -254,32 +254,38 @@
 			(embedded_fonts no)
 		)
 		(symbol "RF_ZigBee:XBee_SMT"
-			(pin_names
-				(offset 1.016)
-			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "U1"
-				(at 4.6833 27.94 0)
+				(at 1.778 24.638 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "XBee_SMT"
-				(at 4.6833 25.4 0)
+			(property "Value" "AP63357"
+				(at 2.54 22.606 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "RF_Module:Digi_XBee_SMT"
-				(at 21.336 -26.924 0)
+			(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical"
+				(at 1.27 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+				(at 1.016 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -287,8 +293,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://www.digi.com/resources/documentation/digidocs/pdfs/90002126.pdf"
-				(at -1.27 -44.196 0)
+			(property "Description" "Adjustable 3A 150kHz Step-Down Voltage Regulator, TO-220"
+				(at 0.254 -10.414 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -296,7 +302,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Digi Xbee SMT RF module"
+			(property "ki_keywords" "Step-Down Voltage Regulator Adjustable 3A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -305,16 +311,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "Digi XBee"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Digi*XBee*SMT*"
+			(property "ki_fp_filters" "TO?220*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -325,8 +322,8 @@
 			)
 			(symbol "XBee_SMT_0_1"
 				(rectangle
-					(start -25.4 22.86)
-					(end 25.4 -25.4)
+					(start -5.08 21.59)
+					(end 10.16 -5.08)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -337,46 +334,10 @@
 				)
 			)
 			(symbol "XBee_SMT_1_1"
-				(pin bidirectional line
-					(at -27.94 12.7 0)
+				(pin input line
+					(at -7.62 17.78 0)
 					(length 2.54)
-					(name "DIO13/UART_TX"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin bidirectional line
-					(at -27.94 6.35 0)
-					(length 2.54)
-					(name "DIO14/UART_RX/~{CONFIG}"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -5.08 -27.94 90)
-					(length 2.54)
-					(name "GND"
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -391,10 +352,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 0 25.4 270)
+				(pin output line
+					(at -7.62 8.89 0)
 					(length 2.54)
-					(name "5V"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -409,18 +370,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 25.4 -5.08 180)
+				(pin output line
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "COMP"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "37"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -428,18 +388,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 25.4 -7.62 180)
+				(pin input line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "34"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -447,18 +406,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 25.4 -10.16 180)
+				(pin output line
+					(at 12.7 17.78 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "BST"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "23"
+					(number "8"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -466,18 +424,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 25.4 -12.7 180)
+				(pin output line
+					(at 12.7 8.89 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "SW"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "21"
+					(number "7"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -485,18 +442,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 25.4 -15.24 180)
+				(pin output line
+					(at 12.7 2.54 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "20"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -504,56 +460,17 @@
 						)
 					)
 				)
-				(pin no_connect line
-					(at 25.4 -17.78 180)
+				(pin output line
+					(at 12.7 -2.54 180)
 					(length 2.54)
-					(hide yes)
-					(name "NC"
+					(name "PG"
 						(effects
 							(font
 								(size 1.27 1.27)
 							)
 						)
 					)
-					(number "19"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 25.4 -20.32 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "18"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin no_connect line
-					(at 25.4 -22.86 180)
-					(length 2.54)
-					(hide yes)
-					(name "NC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "9"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -568,16 +485,16 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U3"
-				(at 0 17.272 0)
+			(property "Reference" "U1"
+				(at 1.778 24.638 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Value" "AP3429/A"
-				(at 0.254 13.208 0)
+			(property "Value" "AP63357"
+				(at 2.54 22.606 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -633,7 +550,7 @@
 			)
 			(symbol "LM2596T-ADJ_0_1"
 				(rectangle
-					(start -8.89 11.43)
+					(start -5.08 21.59)
 					(end 10.16 -5.08)
 					(stroke
 						(width 0.254)
@@ -646,7 +563,7 @@
 			)
 			(symbol "LM2596T-ADJ_1_1"
 				(pin input line
-					(at -11.43 5.08 0)
+					(at -7.62 17.78 0)
 					(length 2.54)
 					(name "VIN"
 						(effects
@@ -663,10 +580,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -11.43 1.27 0)
+				(pin output line
+					(at -7.62 8.89 0)
 					(length 2.54)
-					(name "GND"
+					(name "EN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -682,9 +599,9 @@
 					)
 				)
 				(pin output line
-					(at -11.43 -2.54 0)
+					(at -7.62 2.54 0)
 					(length 2.54)
-					(name "VOUT"
+					(name "COMP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -699,10 +616,28 @@
 						)
 					)
 				)
-				(pin output line
-					(at 12.7 7.62 180)
+				(pin input line
+					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "EN"
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 12.7 17.78 180)
+					(length 2.54)
+					(name "BST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -718,9 +653,9 @@
 					)
 				)
 				(pin output line
-					(at 12.7 5.08 180)
+					(at 12.7 8.89 180)
 					(length 2.54)
-					(name "VIN"
+					(name "SW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -738,7 +673,7 @@
 				(pin output line
 					(at 12.7 2.54 180)
 					(length 2.54)
-					(name "GND"
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -754,9 +689,9 @@
 					)
 				)
 				(pin output line
-					(at 12.7 0 180)
+					(at 12.7 -2.54 180)
 					(length 2.54)
-					(name "GND"
+					(name "PG"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -764,24 +699,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 12.7 -2.54 180)
-					(length 2.54)
-					(name "VOUT"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1956,25 +1873,34 @@
 		(fields_autoplaced yes)
 		(uuid "75682957-b691-4bd7-a055-12b6334de6f5")
 		(property "Reference" "U1"
-			(at 244.7133 52.07 0)
+			(at 241.808 55.372 0)
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "AP63357"
+			(at 242.57 57.404 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical"
+			(at 241.3 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
 				)
 				(justify left)
+				(hide yes)
 			)
 		)
-		(property "Value" "XBee_SMT"
-			(at 244.7133 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "RF_Module:Digi_XBee_SMT"
-			(at 261.366 106.934 0)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
+			(at 241.046 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1982,8 +1908,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.digi.com/resources/documentation/digidocs/pdfs/90002126.pdf"
-			(at 238.76 124.206 0)
+		(property "Description" "Adjustable 3A 150kHz Step-Down Voltage Regulator, TO-220"
+			(at 240.284 90.424 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1991,25 +1917,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Digi Xbee SMT RF module"
-			(at 240.03 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "37"
+		(pin "7"
 			(uuid "df1d606b-384b-4948-8586-3d82d1486fd0")
 		)
 		(pin "2"
 			(uuid "c7b82f86-0ca3-4749-b7aa-85da5f664ee2")
 		)
-		(pin "20"
+		(pin "6"
 			(uuid "9f178da0-d8bf-478f-a6f7-5eee258f708a")
 		)
-		(pin "34"
+		(pin "5"
 			(uuid "12f77708-1569-4b38-b9c5-6f12f7538155")
 		)
 		(pin "4"
@@ -2021,20 +1938,8 @@
 		(pin "3"
 			(uuid "8482f2c4-00bd-47f2-948a-30d4271fbf9f")
 		)
-		(pin "23"
-			(uuid "0a5cb162-7618-4443-9fbb-e03fa401881b")
-		)
-		(pin "21"
-			(uuid "215be7c6-5dfc-480e-8d40-cd448d46c3ce")
-		)
-		(pin "18"
+		(pin "8"
 			(uuid "4f9551ae-20e7-48f0-ac32-5bbdd0db1471")
-		)
-		(pin "9"
-			(uuid "fbdbf169-f343-4f0f-813e-b143ea80bff7")
-		)
-		(pin "19"
-			(uuid "0ba63110-db12-4b60-bf78-a6f818ed4d95")
 		)
 		(instances
 			(project ""
@@ -2121,16 +2026,16 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "91f4ee3a-7f5b-4a14-93f3-9428ea2e2f6e")
-		(property "Reference" "U3"
-			(at 80.01 23.368 0)
+		(property "Reference" "U1"
+			(at 81.788 16.002 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "AP3429/A"
-			(at 80.264 27.432 0)
+		(property "Value" "AP63357"
+			(at 82.55 18.034 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2193,7 +2098,7 @@
 		(instances
 			(project ""
 				(path "/d8ce2caf-0c67-4832-9e4a-22facc4f9531"
-					(reference "U3")
+					(reference "U1")
 					(unit 1)
 				)
 			)
