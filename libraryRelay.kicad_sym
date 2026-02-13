@@ -58,7 +58,8 @@
 					(type solid)
 				)
 				(fill
-					(type none)
+					(type color)
+					(color 254 255 218 1)
 				)
 			)
 			(rectangle
