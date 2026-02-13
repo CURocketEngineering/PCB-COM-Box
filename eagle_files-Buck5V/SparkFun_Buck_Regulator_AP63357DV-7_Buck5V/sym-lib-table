@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "SparkFun_Buck_Regulator_AP63357DV-7_Buck5V-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/SparkFun_Buck_Regulator_AP63357DV-7_Buck5V-eagle-import.kicad_sym")(options "")(descr ""))
+)

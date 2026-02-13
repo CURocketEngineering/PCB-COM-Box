@@ -1,0 +1,79 @@
+(footprint "#GND#1"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "225bc88a-fbf4-4610-a21f-66057ebe9d9c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "0b732c44-c104-4da0-a105-e6c25ccf2632")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34c287f7-5606-4fb7-8a5b-f4ca65a31e22")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "77e0f3f5-da99-462d-8d7f-618a8de1e015")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_poly
+		(pts
+			(xy 0.740981 -0.184903) (xy 0.792093 -0.17468) (xy 0.833571 -0.143571) (xy 0.864397 -0.102471) (xy 0.885 -0.050963)
+			(xy 0.885 0.000495) (xy 0.874813 0.051431) (xy 0.854261 0.10281) (xy 0.823536 0.133536) (xy 0.782962 0.174109)
+			(xy 0.76118 0.185) (xy 0.605 0.185) (xy 0.605 -0.172676) (xy 0.638486 -0.195) (xy 0.690495 -0.195)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "ccb20f0d-5ba7-4d19-9bee-33322c3dda9a")
+	)
+	(fp_poly
+		(pts
+			(xy 1.425 -0.515) (xy 1.425 0.515) (xy -1.370495 0.515) (xy -1.425 0.504099) (xy -1.425 -0.515)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "645f0bec-01c4-4ff4-9766-adc69f9111ed")
+	)
+	(embedded_fonts no)
+)
