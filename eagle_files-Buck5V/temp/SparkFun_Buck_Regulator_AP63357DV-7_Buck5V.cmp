@@ -1,0 +1,435 @@
+Cmp-Mod V01 Created by PcbNew   date = 2026-02-17T17:36:09-0500
+
+BeginCmp
+TimeStamp = a36a08d9-d0ca-4be8-a2e0-81cd14564125
+Path = 
+Reference = FRAME1;
+ValeurCmp = FRAME-LEDGER;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:CREATIVE_COMMONS;
+EndCmp
+
+BeginCmp
+TimeStamp = 9dd0c238-0e74-43c0-a7ae-5c98ed5eca1b
+Path = 
+Reference = FD1;
+ValeurCmp = FIDUCIALUFIDUCIAL;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:FIDUCIAL-MICRO;
+EndCmp
+
+BeginCmp
+TimeStamp = 98fdd7ae-32dc-462a-abdb-fd2068669aeb
+Path = 
+Reference = FD2;
+ValeurCmp = FIDUCIALUFIDUCIAL;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:FIDUCIAL-MICRO;
+EndCmp
+
+BeginCmp
+TimeStamp = 386e106b-a5ed-4f74-8a2b-4ae5a9f98dd6
+Path = 
+Reference = FD3;
+ValeurCmp = FIDUCIALUFIDUCIAL;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:FIDUCIAL-MICRO;
+EndCmp
+
+BeginCmp
+TimeStamp = 4093aa28-ba73-4437-9d08-8b0d1b4cab94
+Path = 
+Reference = FD4;
+ValeurCmp = FIDUCIALUFIDUCIAL;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:FIDUCIAL-MICRO;
+EndCmp
+
+BeginCmp
+TimeStamp = 23b95d75-5f22-4f21-84bd-9e5522d01454
+Path = 
+Reference = J1;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:SCREWTERMINAL-3.5MM-4;
+EndCmp
+
+BeginCmp
+TimeStamp = 77aa0414-3961-4eb5-9b80-99f7287bc9dc
+Path = 
+Reference = J3;
+ValeurCmp = POWER_JACK;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:POWER_JACK_PTH_SLOT_NO_OVRHNG_SILK;
+EndCmp
+
+BeginCmp
+TimeStamp = b6ad73b8-62c7-4e20-82f5-93562ca4abe4
+Path = 
+Reference = J2;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:1X05_NO_SILK;
+EndCmp
+
+BeginCmp
+TimeStamp = 6faf1858-2d9f-4809-9c50-735389dba56d
+Path = 
+Reference = R2;
+ValeurCmp = 41.2K;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0402-TIGHT;
+EndCmp
+
+BeginCmp
+TimeStamp = f235d131-4208-4010-a90c-6db65915b37d
+Path = 
+Reference = U1;
+ValeurCmp = AP63357;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:V-DFN3020-13;
+EndCmp
+
+BeginCmp
+TimeStamp = e4d1c288-21e9-4174-876c-15ed66bb4c97
+Path = 
+Reference = C1;
+ValeurCmp = 47pF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0402-TIGHT;
+EndCmp
+
+BeginCmp
+TimeStamp = aff9f6d0-af66-4bf3-ac7f-6e2fe71e8a62
+Path = 
+Reference = L1;
+ValeurCmp = 6.8UH;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:07A7_6U8H;
+EndCmp
+
+BeginCmp
+TimeStamp = 59dc1c24-b77c-426f-9d0f-e379a489e571
+Path = 
+Reference = C2;
+ValeurCmp = 0.1uF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0402-TIGHT;
+EndCmp
+
+BeginCmp
+TimeStamp = ab8af81a-0ae7-4e30-886e-7cfeb767ff63
+Path = 
+Reference = R3;
+ValeurCmp = 93.1k;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0402-TIGHT;
+EndCmp
+
+BeginCmp
+TimeStamp = a9ccdc79-0861-4207-9472-98f9f6350e73
+Path = 
+Reference = R4;
+ValeurCmp = 22k;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0402-TIGHT;
+EndCmp
+
+BeginCmp
+TimeStamp = e4d603c2-3566-466e-bd1f-2e7da677e53b
+Path = 
+Reference = C3;
+ValeurCmp = 22uF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 09dd213a-fff7-4d5d-8b9f-bd649629dfe6
+Path = 
+Reference = C4;
+ValeurCmp = 22uF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0805;
+EndCmp
+
+BeginCmp
+TimeStamp = c6a67e26-71a0-42f5-bfa6-4f6d35625651
+Path = 
+Reference = C5;
+ValeurCmp = 4.7uF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 3d712811-5cf0-4aae-a33a-287d4f7171a0
+Path = 
+Reference = PWR0;
+ValeurCmp = JUMPER-SMT_2_NC_TRACE_SILK;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:SMT-JUMPER_2_NC_TRACE_SILK;
+EndCmp
+
+BeginCmp
+TimeStamp = 25f2d4c0-da63-40ab-9d6b-6507a5e6755b
+Path = 
+Reference = D1;
+ValeurCmp = RED;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:LED-0603;
+EndCmp
+
+BeginCmp
+TimeStamp = 8f882c78-b55f-46df-b3a4-49e1ebe6fc7d
+Path = 
+Reference = R5;
+ValeurCmp = 2.2k;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0402-TIGHT;
+EndCmp
+
+BeginCmp
+TimeStamp = 85520eb9-2e21-4e10-b126-cf3fbe69852d
+Path = 
+Reference = LOGO1;
+ValeurCmp = OSHW-LOGOMINI;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:OSHW-LOGO-MINI;
+EndCmp
+
+BeginCmp
+TimeStamp = c7df0bee-90bb-49fd-86e2-a5b009222e06
+Path = 
+Reference = LOGO2;
+ValeurCmp = SFE_LOGO_NAME_FLAME.1_INCH;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:SFE_LOGO_NAME_FLAME_.1;
+EndCmp
+
+BeginCmp
+TimeStamp = 84220515-c75c-46c3-a4f6-13705366e6e0
+Path = 
+Reference = H1;
+ValeurCmp = STAND-OFF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:STAND-OFF;
+EndCmp
+
+BeginCmp
+TimeStamp = ec928f7f-2e1e-4275-81c6-547ea8793244
+Path = 
+Reference = H2;
+ValeurCmp = STAND-OFF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:STAND-OFF;
+EndCmp
+
+BeginCmp
+TimeStamp = 10ebdf5a-0e5d-48bc-947a-7b15d41aa09a
+Path = 
+Reference = H3;
+ValeurCmp = STAND-OFF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:STAND-OFF;
+EndCmp
+
+BeginCmp
+TimeStamp = 45a4cce5-6b48-4331-9fcc-41bbc104f080
+Path = 
+Reference = H4;
+ValeurCmp = STAND-OFF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:STAND-OFF;
+EndCmp
+
+BeginCmp
+TimeStamp = 5ff73eea-973a-4876-a795-c3c5e43f9691
+Path = 
+Reference = C6;
+ValeurCmp = 4.7uF;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0805;
+EndCmp
+
+BeginCmp
+TimeStamp = 39748876-25dd-4736-bb22-5b284262ae0a
+Path = 
+Reference = U$2;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:5V_BUCK_REGULATOR0;
+EndCmp
+
+BeginCmp
+TimeStamp = 7d704d7c-dbc2-49cb-9dea-1f8db5fc1bbe
+Path = 
+Reference = U$1;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:AP63357DV#70;
+EndCmp
+
+BeginCmp
+TimeStamp = 90b2b622-edc0-4e8c-80eb-389db4b9a119
+Path = 
+Reference = U$8;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#EN_#0;
+EndCmp
+
+BeginCmp
+TimeStamp = 415823f2-bc3a-4a91-9971-baa50e8a3291
+Path = 
+Reference = U$13;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#VIN#0;
+EndCmp
+
+BeginCmp
+TimeStamp = e855e31e-70e4-43f2-b9d6-9f51d9c268da
+Path = 
+Reference = U$17;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:SFE_LOGO_FLAME_COPPER_EXPOSED_.1;
+EndCmp
+
+BeginCmp
+TimeStamp = 04f32bd3-0311-40ae-9a0e-b92068a44d96
+Path = 
+Reference = U$18;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:VIN#_6V#32V0;
+EndCmp
+
+BeginCmp
+TimeStamp = 1275ba87-4fa1-4431-8275-390aaeffdd60
+Path = 
+Reference = U$19;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#EN_#0;
+EndCmp
+
+BeginCmp
+TimeStamp = cd4d8b53-356b-49b9-951e-4371d93f7fd9
+Path = 
+Reference = U$15;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#LED_#0;
+EndCmp
+
+BeginCmp
+TimeStamp = 7878453c-77ce-4aba-8487-88fa93f8f317
+Path = 
+Reference = U$20;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:PWR0;
+EndCmp
+
+BeginCmp
+TimeStamp = 88ab0c9c-4dd1-4e43-9887-24c633f4b2f6
+Path = 
+Reference = U$21;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#GND#1;
+EndCmp
+
+BeginCmp
+TimeStamp = de8d29fa-d0a2-451d-86cd-6c03bbba1baf
+Path = 
+Reference = U$22;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:HIGH_TEMP_WARNING;
+EndCmp
+
+BeginCmp
+TimeStamp = efe464db-5ff9-4e26-af23-42b8462e0cf4
+Path = 
+Reference = U$23;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:ORDERING_INSTRUCTIONS;
+EndCmp
+
+BeginCmp
+TimeStamp = 5c8f633d-4341-4b21-828c-1be6bcba737f
+Path = 
+Reference = U$24;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#5V#0;
+EndCmp
+
+BeginCmp
+TimeStamp = 054e9f4f-388a-49cb-9620-12c7d8c58349
+Path = 
+Reference = U$5;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#VIN#0;
+EndCmp
+
+BeginCmp
+TimeStamp = ace24738-0cf8-493e-8d4d-0a060e74b9ec
+Path = 
+Reference = U$6;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#GND#0;
+EndCmp
+
+BeginCmp
+TimeStamp = 2ff6819f-9544-43e6-bb71-d822999e659a
+Path = 
+Reference = U$7;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#GND#0;
+EndCmp
+
+BeginCmp
+TimeStamp = e8d36ba1-d3a0-45f9-8991-9f525178c8ae
+Path = 
+Reference = U$14;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#5V#0;
+EndCmp
+
+BeginCmp
+TimeStamp = 48b3506d-9c2b-45b2-b4d1-1df16e1edab2
+Path = 
+Reference = U$16;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:CAUTION#0;
+EndCmp
+
+BeginCmp
+TimeStamp = 9c30b090-e398-4c19-9f21-be8994a812fa
+Path = 
+Reference = U$26;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#VIN#3;
+EndCmp
+
+BeginCmp
+TimeStamp = 9d498e68-0c5b-4784-afcc-a62e8be16cf2
+Path = 
+Reference = U$3;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#5V#4;
+EndCmp
+
+BeginCmp
+TimeStamp = 80a0ab47-cd28-4bda-9a7e-5b3103a822e1
+Path = 
+Reference = U$4;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#VIN#8;
+EndCmp
+
+BeginCmp
+TimeStamp = 670ba67e-ff22-4233-9342-880f91511f19
+Path = 
+Reference = U$9;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#GND#9;
+EndCmp
+
+BeginCmp
+TimeStamp = 4755c558-fd03-464d-9e80-c0fa62e599f9
+Path = 
+Reference = U$10;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:#5V#10;
+EndCmp
+
+BeginCmp
+TimeStamp = 65ee0bfb-b18b-4309-adf7-f7ca805e09ef
+Path = 
+Reference = U$11;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:6V#32V10;
+EndCmp
+
+BeginCmp
+TimeStamp = 5786b767-03a1-4c12-b267-ca3354f3f021
+Path = 
+Reference = U$12;
+ValeurCmp = [NoVal];
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:HOT##0;
+EndCmp
+
+BeginCmp
+TimeStamp = 3cd6d613-8e0b-4d8e-a159-072ae4dc5308
+Path = 
+Reference = R1;
+ValeurCmp = 220K;
+IdModule  = SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:0402-TIGHT;
+EndCmp
+
+EndListe

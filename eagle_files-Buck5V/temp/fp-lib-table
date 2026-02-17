@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "SparkFun_Buck_Regulator_AP63357DV-7_Buck5V")(type "KiCad")(uri "$(KIPRJMOD)/SparkFun_Buck_Regulator_AP63357DV-7_Buck5V.pretty")(options "")(descr ""))
+)
