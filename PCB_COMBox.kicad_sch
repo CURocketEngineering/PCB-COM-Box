@@ -1888,7 +1888,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical"
+		(property "Footprint" "SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:V-DFN3020-13"
 			(at 241.3 86.36 0)
 			(effects
 				(font
@@ -1896,7 +1896,6 @@
 					(italic yes)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2596.pdf"
@@ -2042,7 +2041,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-5_P3.4x3.7mm_StaggerOdd_Lead3.8mm_Vertical"
+		(property "Footprint" "SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:V-DFN3020-13"
 			(at 76.2 50.8 0)
 			(effects
 				(font
