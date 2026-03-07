@@ -11,7 +11,10 @@
 		(hide yes)
 		(uuid "a023a7e0-73d1-44e8-aa24-3a3306d47f8e")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Value" "Digi_XBee_SMT"
@@ -20,7 +23,10 @@
 		(hide yes)
 		(uuid "67336ebb-fff7-429e-b327-3a08fe1016bc")
 		(effects
-			(font (size 1 1) (thickness 0.15))
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Datasheet" ""
@@ -30,7 +36,10 @@
 		(hide yes)
 		(uuid "f64b22ca-c4d5-422b-ae14-f7f82caf9c4c")
 		(effects
-			(font (size 1.27 1.27) (thickness 0.15))
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
 		)
 	)
 	(property "Description" ""
@@ -40,49 +49,70 @@
 		(hide yes)
 		(uuid "4de35c49-7b88-429d-b10e-b43388af454d")
 		(effects
-			(font (size 1.27 1.27) (thickness 0.15))
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
 		)
 	)
 	(attr smd)
 	(fp_line
 		(start 0 -21.08)
 		(end 0 0)
-		(stroke (width 0.1) (type solid))
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 		(layer "F.SilkS")
 		(uuid "0fb8ac3a-e108-4c7f-ac96-a5bd9f4b8071")
 	)
 	(fp_line
 		(start 0 0)
 		(end 24.38 0)
-		(stroke (width 0.12) (type solid))
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
 		(layer "F.SilkS")
 		(uuid "7249a1bf-4235-4fdd-9565-79f8ab7e1397")
 	)
 	(fp_line
 		(start 7.59 -27.01)
 		(end 0 -21.08)
-		(stroke (width 0.1) (type default))
+		(stroke
+			(width 0.1)
+			(type default)
+		)
 		(layer "F.SilkS")
 		(uuid "a65c255b-53ba-47c5-aaec-6abd44415ca3")
 	)
 	(fp_line
 		(start 7.59 -27.01)
 		(end 16.79 -27.01)
-		(stroke (width 0.1) (type solid))
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 		(layer "F.SilkS")
 		(uuid "7e0816e8-2583-457a-8a57-58c6a91034e9")
 	)
 	(fp_line
 		(start 16.79 -27.01)
 		(end 24.38 -21.08)
-		(stroke (width 0.1) (type default))
+		(stroke
+			(width 0.1)
+			(type default)
+		)
 		(layer "F.SilkS")
 		(uuid "f806874c-bfdb-464f-8b3b-494d76d37ba2")
 	)
 	(fp_line
 		(start 24.38 0)
 		(end 24.38 -21.08)
-		(stroke (width 0.1) (type solid))
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 		(layer "F.SilkS")
 		(uuid "2c42c09f-6116-4e88-b7f5-fcd8e6518603")
 	)
@@ -92,7 +122,10 @@
 		(layer "F.SilkS")
 		(uuid "95c46bdc-5c85-4fdf-9338-55c6fdf4ee95")
 		(effects
-			(font (size 1 1) (thickness 0.1))
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
 			(justify left bottom)
 		)
 	)
@@ -102,7 +135,10 @@
 		(layer "F.SilkS")
 		(uuid "b1b4f2f6-5184-4b29-af60-73a0bd90cb17")
 		(effects
-			(font (size 1 1) (thickness 0.1))
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
 			(justify left bottom)
 		)
 	)
@@ -112,7 +148,10 @@
 		(layer "F.SilkS")
 		(uuid "bac95039-ea19-4656-93c2-bf0fa1e46d00")
 		(effects
-			(font (size 1 1) (thickness 0.1))
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
 			(justify left bottom)
 		)
 	)
@@ -187,14 +226,6 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "5be30f92-7cbd-4934-bf48-e54e161a71df")
-	)
-	(pad "10" thru_hole circle
-		(at 1 -2.5)
-		(size 1.524 1.524)
-		(drill 0.762)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "170db2c1-cdb9-40f0-b19e-915c9e33ad79")
 	)
 	(pad "10" thru_hole circle
 		(at 1.19 -2.01)
@@ -286,8 +317,14 @@
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/Digi_XBee_SMT.step"
-		(offset (xyz 0 0 0))
-		(scale (xyz 1 1 1))
-		(rotate (xyz 0 0 0))
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
 	)
 )

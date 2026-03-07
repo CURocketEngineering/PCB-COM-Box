@@ -3204,7 +3204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RF:Reg"
+		(property "Footprint" "Library:Reg"
 			(at 134.62 120.65 0)
 			(effects
 				(font
