@@ -3204,7 +3204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "SparkFun_Buck_Regulator_AP63357DV-7_Buck5V:V-DFN3020-13"
+		(property "Footprint" "Library:Reg"
 			(at 134.62 120.65 0)
 			(effects
 				(font

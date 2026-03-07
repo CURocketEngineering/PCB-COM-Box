@@ -1,4 +1,4 @@
-27219017742349286
+27233208140096533
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -384,6 +384,13 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+Button_Switch_Keyboard
+Digi_XBee_SMT
+http://www.digi.com/resources/documentation/digidocs/pdfs/90002126.pdf http://ftp1.digi.com/support/documentation/90001020_F.pdf
+Digi XBee SMT RF
+0
+21
+20
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
@@ -6871,8 +6878,8 @@ FanPinHeader_1x03_P2.54mm_Vertical
 3-pin CPU fan Through hole pin header, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
 pin header 3-pin CPU fan
 0
-3
-3
+0
+0
 Connector
 FanPinHeader_1x04_P2.54mm_Vertical
 4-pin CPU fan Through hole pin header, e.g. for Wieson part number 2366C888-007 Molex 47053-1000, Foxconn HF27040-M1, Tyco 1470947-1 or equivalent, see http://www.formfactors.org/developer%5Cspecs%5Crev1_2_public.pdf
@@ -71805,6 +71812,20 @@ Yellow 5381 Series LED
 0
 2
 2
+Library
+Digi_XBee_SMT
+http://www.digi.com/resources/documentation/digidocs/pdfs/90002126.pdf http://ftp1.digi.com/support/documentation/90001020_F.pdf
+Digi XBee SMT RF
+0
+20
+20
+Library
+Reg
+
+
+0
+4
+4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -83376,6 +83397,27 @@ UQFN NoLead
 0
 75
 49
+Package_DFN_QFN
+Untitled
+
+
+0
+0
+0
+Package_DFN_QFN
+Untitled_1
+
+
+0
+0
+0
+Package_DFN_QFN
+Untitled_2
+
+
+0
+4
+4
 Package_DFN_QFN
 VDFN-8-1EP_2x2mm_P0.5mm_EP0.9x1.7mm
 8-Lead Very Thin Dual Flatpack No-Lead (LZ) - 2x3x0.9 mm Body [VDFN] (see Microchip Packaging Specification 00000049BS.pdf)
@@ -95039,6 +95081,13 @@ Potentiometer vertical vishay
 3
 3
 RF
+Reg
+
+
+0
+4
+4
+RF
 Skyworks_SKY13575_639LF
 http://www.skyworksinc.com/uploads/documents/SKY13575_639LF_203270D.pdf
 Skyworks
@@ -95701,8 +95750,8 @@ Digi_XBee_SMT
 http://www.digi.com/resources/documentation/digidocs/pdfs/90002126.pdf http://ftp1.digi.com/support/documentation/90001020_F.pdf
 Digi XBee SMT RF
 0
-37
-37
+21
+20
 RF_Module
 E18-MS1-PCB
 http://www.cdebyte.com/en/downpdf.aspx?id=122
@@ -96081,6 +96130,13 @@ Taiyo Yuden NRF51822 Module Bluetooth
 0
 30
 28
+RF_Module
+Untitled
+
+
+0
+0
+0
 RF_Module
 WEMOS_C3_mini
 16-pin module, column spacing 22.86 mm (900 mils), https://www.wemos.cc/en/latest/_static/files/dim_c3_mini_v1.0.0.pdf
