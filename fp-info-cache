@@ -1,4 +1,4 @@
-27233208140096533
+27233211725623594
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -60178,6 +60178,20 @@ ceramic
 0
 3
 3
+CustomFootprints
+Digi_XBee_SMT
+http://www.digi.com/resources/documentation/digidocs/pdfs/90002126.pdf http://ftp1.digi.com/support/documentation/90001020_F.pdf
+Digi XBee SMT RF
+0
+20
+20
+CustomFootprints
+Reg
+
+
+0
+4
+4
 Diode_SMD
 D_0201_0603Metric
 Diode SMD 0201 (0603 Metric), square (rectangular) end terminal, IPC-7351 nominal, (Body size source: https://www.vishay.com/docs/20052/crcw0201e3.pdf), generated with kicad-footprint-generator
@@ -71812,20 +71826,6 @@ Yellow 5381 Series LED
 0
 2
 2
-Library
-Digi_XBee_SMT
-http://www.digi.com/resources/documentation/digidocs/pdfs/90002126.pdf http://ftp1.digi.com/support/documentation/90001020_F.pdf
-Digi XBee SMT RF
-0
-20
-20
-Library
-Reg
-
-
-0
-4
-4
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet

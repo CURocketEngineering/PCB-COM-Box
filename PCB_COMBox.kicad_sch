@@ -3204,7 +3204,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Library:Reg"
+		(property "Footprint" "CustomFootprints:Reg"
 			(at 134.62 120.65 0)
 			(effects
 				(font
@@ -3283,7 +3283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "RF_Module:Digi_XBee_SMT"
+		(property "Footprint" "CustomFootprints:Digi_XBee_SMT"
 			(at 158.496 186.944 0)
 			(effects
 				(font
