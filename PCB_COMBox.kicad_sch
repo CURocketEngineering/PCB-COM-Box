@@ -2794,7 +2794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "CustomFootprints:Relay"
 			(at 45.72 157.48 0)
 			(effects
 				(font
