@@ -3357,7 +3357,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 191.77 55.88 0)
+		(at 168.91 87.63 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3366,7 +3366,7 @@
 		(fields_autoplaced yes)
 		(uuid "c6b2121c-b15a-458e-9b44-8ced4928d433")
 		(property "Reference" "D1"
-			(at 190.1825 49.53 0)
+			(at 167.3225 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3374,7 +3374,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 190.1825 52.07 0)
+			(at 167.3225 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3382,7 +3382,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 191.77 55.88 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3391,7 +3391,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 55.88 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3400,7 +3400,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 191.77 55.88 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3409,7 +3409,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 191.77 55.88 0)
+			(at 168.91 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
