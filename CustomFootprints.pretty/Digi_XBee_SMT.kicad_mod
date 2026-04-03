@@ -315,6 +315,38 @@
 		(remove_unused_layers no)
 		(uuid "d2f2c364-60a1-4d46-a9b2-8427a2ef8992")
 	)
+	(zone
+		(net 0)
+		(net_name "")
+		(layer "F.SilkS")
+		(uuid "1c6021d0-f97e-440e-9f54-97350dfb1341")
+		(hatch edge 0.5)
+		(connect_pads
+			(clearance 0)
+		)
+		(min_thickness 0.25)
+		(filled_areas_thickness no)
+		(keepout
+			(tracks allowed)
+			(vias allowed)
+			(pads not_allowed)
+			(copperpour not_allowed)
+			(footprints not_allowed)
+		)
+		(placement
+			(enabled no)
+			(sheetname "")
+		)
+		(fill
+			(thermal_gap 0.5)
+			(thermal_bridge_width 0.5)
+		)
+		(polygon
+			(pts
+				(xy 7.19 -77.01) (xy 17.19 -77.01) (xy 17.19 -27.01) (xy 7.19 -27.01)
+			)
+		)
+	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/RF_Module.3dshapes/Digi_XBee_SMT.step"
 		(offset
