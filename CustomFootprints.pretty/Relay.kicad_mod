@@ -55,17 +55,6 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -44 -52.5)
-		(end 44 39.5)
-		(stroke
-			(width 0.2)
-			(type solid)
-		)
-		(fill no)
-		(layer "F.Cu")
-		(uuid "cec36c29-50d5-492b-974d-7d44823f3031")
-	)
-	(fp_rect
 		(start -38 -27)
 		(end 38 27)
 		(stroke
@@ -105,6 +94,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "270894ef-f689-42b9-8043-5f6a9c980524")
+	)
+	(fp_rect
+		(start -44 -52.5)
+		(end 44 39.5)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "cec36c29-50d5-492b-974d-7d44823f3031")
 	)
 	(fp_rect
 		(start -36.27 -25.19)
@@ -316,11 +316,11 @@
 		(min_thickness 0.25)
 		(filled_areas_thickness no)
 		(keepout
-			(tracks not_allowed)
-			(vias not_allowed)
-			(pads not_allowed)
+			(tracks allowed)
+			(vias allowed)
+			(pads allowed)
 			(copperpour allowed)
-			(footprints allowed)
+			(footprints not_allowed)
 		)
 		(placement
 			(enabled no)

@@ -57,6 +57,26 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -1.7714 -26.7714)
+		(end -1.7714 -1.3714)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5214098a-75f9-4ab3-b356-023621b9a325")
+	)
+	(fp_line
+		(start -1.7714 -1.3714)
+		(end 23.6286 -1.3714)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "b83a9a3f-d60c-49a4-9ddf-8b9459f1abda")
+	)
+	(fp_line
 		(start 1.9 -23.5)
 		(end 1.9 -25)
 		(stroke
@@ -207,6 +227,26 @@
 		(uuid "13a95269-bcdd-441e-ab4b-b760bf287ccc")
 	)
 	(fp_line
+		(start 23.6286 -26.7714)
+		(end -1.7714 -26.7714)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "021ba728-5520-40ad-b51f-c7a404c129a4")
+	)
+	(fp_line
+		(start 23.6286 -1.3714)
+		(end 23.6286 -26.7714)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c270cd72-6a2d-4aa4-b0b4-b8e36d9027fa")
+	)
+	(fp_line
 		(start 5.8486 -17.5004)
 		(end 18.5486 -17.5004)
 		(stroke
@@ -245,56 +285,6 @@
 		)
 		(layer "Cmts.User")
 		(uuid "84b490fe-4a11-462c-aeae-1f4c532e73dd")
-	)
-	(fp_line
-		(start -1.7714 -26.7714)
-		(end -1.7714 -1.3714)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "5214098a-75f9-4ab3-b356-023621b9a325")
-	)
-	(fp_line
-		(start -1.7714 -1.3714)
-		(end 23.6286 -1.3714)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b83a9a3f-d60c-49a4-9ddf-8b9459f1abda")
-	)
-	(fp_line
-		(start 23.6286 -26.7714)
-		(end -1.7714 -26.7714)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "021ba728-5520-40ad-b51f-c7a404c129a4")
-	)
-	(fp_line
-		(start 23.6286 -1.3714)
-		(end 23.6286 -26.7714)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c270cd72-6a2d-4aa4-b0b4-b8e36d9027fa")
-	)
-	(fp_line
-		(start -2 -18.11)
-		(end -2 -27)
-		(stroke
-			(width 0.2032)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "178e52a9-b2a4-40d0-8a45-db0c6e513cfc")
 	)
 	(fp_line
 		(start -1.4704 -22.5)
