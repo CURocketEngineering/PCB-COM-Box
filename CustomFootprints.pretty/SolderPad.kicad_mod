@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -0.5 0)
+		(at 0 -2.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5d6c423d-0c22-40b1-a5c9-974bdd6ff1dd")
@@ -16,7 +16,7 @@
 		)
 	)
 	(property "Value" "SolderPad"
-		(at 0 1 0)
+		(at 0 3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "0debb92f-6e1e-48de-9115-08b96382a2ce")
@@ -55,8 +55,8 @@
 	)
 	(attr smd)
 	(fp_rect
-		(start -6.5 -6.5)
-		(end 6.5 6.5)
+		(start -2 -2)
+		(end 2 2)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -66,7 +66,7 @@
 		(uuid "feee582a-83c6-43fb-a607-a286d362524f")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 2.5 0)
+		(at 0 5 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "5ed3e344-9271-46b7-a08a-62067605aba9")
@@ -79,7 +79,7 @@
 	)
 	(pad "1" smd roundrect
 		(at 0 0)
-		(size 10 10)
+		(size 2.5 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.15)
 		(uuid "e5d0e049-ad91-45ae-a5eb-6905634fe6ef")
