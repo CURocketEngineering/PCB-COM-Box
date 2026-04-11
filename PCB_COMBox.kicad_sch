@@ -1196,10 +1196,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -7.62 2.54 0)
+				(pin power_in line
+					(at -7.62 3.81 0)
 					(length 2.54)
-					(name "5V"
+					(name "GND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1214,10 +1214,10 @@
 						)
 					)
 				)
-				(pin power_in line
+				(pin power_out line
 					(at -7.62 -2.54 0)
 					(length 2.54)
-					(name "GND"
+					(name "5V"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3267,6 +3267,17 @@
 	)
 	(wire
 		(pts
+			(xy 114.3 116.84) (xy 125.73 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "1f618ece-968e-4f93-ac7f-2916309f8985")
+	)
+	(wire
+		(pts
 			(xy 171.45 113.03) (xy 171.45 97.79)
 		)
 		(stroke
@@ -3361,17 +3372,6 @@
 			(color 255 219 127 1)
 		)
 		(uuid "3ab4e36f-c772-4e01-9d00-ce55f47d3591")
-	)
-	(wire
-		(pts
-			(xy 125.73 116.84) (xy 119.38 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 0 0 0 1)
-		)
-		(uuid "3c084c1f-3780-4d85-b955-0ab55e5009fc")
 	)
 	(wire
 		(pts
@@ -3624,6 +3624,17 @@
 	)
 	(wire
 		(pts
+			(xy 119.38 110.49) (xy 125.73 110.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 0 0 0 1)
+		)
+		(uuid "6484d9fc-8c2d-4292-a138-02123d5f08da")
+	)
+	(wire
+		(pts
 			(xy 52.07 152.4) (xy 52.07 158.75)
 		)
 		(stroke
@@ -3646,17 +3657,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 111.76) (xy 114.3 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "676b607c-bdef-4948-8906-56a778769291")
-	)
-	(wire
-		(pts
 			(xy 137.16 190.5) (xy 137.16 187.96)
 		)
 		(stroke
@@ -3665,6 +3665,17 @@
 			(color 255 76 62 1)
 		)
 		(uuid "67c443a5-67f4-490b-9561-31fbc364e60a")
+	)
+	(wire
+		(pts
+			(xy 114.3 72.39) (xy 114.3 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+			(color 255 0 0 1)
+		)
+		(uuid "6a2c02ec-e5ab-4386-b67d-317aca2af25b")
 	)
 	(wire
 		(pts
@@ -3842,7 +3853,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 59.69) (xy 119.38 116.84)
+			(xy 119.38 59.69) (xy 119.38 110.49)
 		)
 		(stroke
 			(width 0)
@@ -4034,17 +4045,6 @@
 			(color 203 75 255 1)
 		)
 		(uuid "c2362703-f8a4-439c-876b-a7275b339f58")
-	)
-	(wire
-		(pts
-			(xy 125.73 111.76) (xy 114.3 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-			(color 255 0 0 1)
-		)
-		(uuid "c70dff95-e4be-48f2-85f9-551ced96266e")
 	)
 	(wire
 		(pts
@@ -4284,7 +4284,7 @@
 		(uuid "0488ea3a-2634-41b1-9798-35981017a5c4")
 	)
 	(label "COM4-GND"
-		(at 124.46 116.84 180)
+		(at 124.46 110.49 180)
 		(effects
 			(font
 				(size 1.27 1.27)
