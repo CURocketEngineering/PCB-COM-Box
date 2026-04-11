@@ -5002,7 +5002,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "6e40b442-2ae1-41b2-b068-2d10b0bd2ecd")
 		(property "Reference" "#PWR07"
 			(at 186.69 119.38 0)
@@ -5013,8 +5012,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+5V"
-			(at 179.07 119.3799 90)
+		(property "Value" "+5V Battery-Reg"
+			(at 187.452 122.682 90)
 			(effects
 				(font
 					(size 1.27 1.27)
