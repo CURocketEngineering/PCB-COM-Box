@@ -3581,7 +3581,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "8 \nCOM1-5V"
+	(gr_text "8 \nCOM1-12V"
 		(at 64.625 37.1 0)
 		(layer "F.SilkS")
 		(uuid "5a487f78-1d15-4471-a0c3-76ea5de7c7d1")
@@ -3785,7 +3785,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "11\nCOM2-5V"
+	(gr_text "11\nCOM2-12V"
 		(at 85.075 37.15 0)
 		(layer "F.SilkS")
 		(uuid "c45dfd9a-89df-4092-9415-d49e28bd98d9")
@@ -3857,7 +3857,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "14\nCOM3"
+	(gr_text "14\nCOM3-12V"
 		(at 105.025 37.45 0)
 		(layer "F.SilkS")
 		(uuid "df085897-9a00-4617-9ce2-2ee44a57874c")
